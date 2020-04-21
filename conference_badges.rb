@@ -19,4 +19,5 @@ end
 
 def printer
   batch_badge_creator.each { |badge| puts badge}
+  room_assignments.each { |room| puts room}
 end
