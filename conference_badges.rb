@@ -20,6 +20,6 @@ end
 def printer(attendees)
   batch_badge_creator(attendees).each { |badge| puts badge}
   room_assignments(attendees).each { |room| puts room}
+  printer(attendees)
 end
 
-printer(attendees)
